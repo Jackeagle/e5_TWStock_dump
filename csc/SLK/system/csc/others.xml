@@ -1,0 +1,16 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>Sri Lanka</Country>
+  <CountryISO>LK</CountryISO>
+  <SalesCode>SLK</SalesCode>
+  <FeatureSet>
+	<CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+	<CscFeature_Setting_ReplaceLabel4DualSim>Smart dual SIM</CscFeature_Setting_ReplaceLabel4DualSim>
+	<CscFeature_Launcher_ConfigMagazineHome>disable</CscFeature_Launcher_ConfigMagazineHome>
+	<CscFeature_Web_EnableAutoSimHomeUrlInProfile>FALSE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_RIL_UssdErrorDoNotDisplay>TRUE</CscFeature_RIL_UssdErrorDoNotDisplay>
+    <CscFeature_FMRadio_DisableMenuInternetRadio>TRUE</CscFeature_FMRadio_DisableMenuInternetRadio>
+    <CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
+  </FeatureSet>
+</SamsungMobileFeauture>

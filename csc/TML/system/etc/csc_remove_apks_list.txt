@@ -1,0 +1,2 @@
+/system/app/MixRadio/MixRadio.apk
+/system/app/MyGalaxy/MyGalaxy.apk

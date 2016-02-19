@@ -1,0 +1,866 @@
+<WorkSpace_Data WSVersID="Badger_3">
+  <ACDBFile_Paths>
+    <ACDBFile_Paths path="Bluetooth_cal.acdb" />
+    <ACDBFile_Paths path="General_cal.acdb" />
+    <ACDBFile_Paths path="Global_cal.acdb" />
+    <ACDBFile_Paths path="Handset_cal.acdb" />
+    <ACDBFile_Paths path="Hdmi_cal.acdb" />
+    <ACDBFile_Paths path="Headset_cal.acdb" />
+    <ACDBFile_Paths path="Speaker_cal.acdb" />
+  </ACDBFile_Paths>
+  <GUI_Data />
+  <OpenDSP MajorMinor="1_0">
+    <AREA_LIST>
+      <AREA name="AUDIO_COPP_TX" type="TX">
+        <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_DM_VPECNS" ID="0x10001105" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_MODULE_VPECNS" dataView_ID="0x00000099" ID="0x00010F16" type="TX" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_TX_SM_LVVEFQ" ID="0x1000BFF0" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX" dataView_ID="0xFFFF0004" ID="0x1000B500" type="TX" NewAdded="true" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX_INJECTION" dataView_ID="0xFFFF0005" ID="0x1000B502" type="TX" NewAdded="true" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_TX_DM_LVVEFQ" ID="0x1000BFF1" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX" dataView_ID="0xFFFF0004" ID="0x1000B500" type="TX" NewAdded="true" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX_INJECTION" dataView_ID="0xFFFF0005" ID="0x1000B502" type="TX" NewAdded="true" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA name="AUDIO_COPP_RX" type="RX">
+        <TOPOLOGY name="AUDIO_RX_STEREO_COPP_SS_SB" ID="0x10001F03" type="RX" NewAdded="true">
+          <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" gain_dependant="Yes" />
+          <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+          <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+          <Block name="RX_AUDIO_PP_SS_SB" dataView_ID="0xFFFF0003" ID="0x10001F01" type="RX" NewAdded="true" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA name="VOICE_COPP_TX" type="TX">
+        <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_SM_ECNS" ID="0x10001100" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_SMECNS" dataView_ID="0x0000007B" ID="0x00010EE0" type="TX" />
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_DM_Fluence" ID="0x10001101" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_DMECNS" dataView_ID="0x0000007A" ID="0x00010EE1" type="TX" />
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_QM_Fleunce" ID="0x10001102" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_FPECNS_QM" dataView_ID="0x00000039" ID="0x00010F08" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC3" dataView_ID="0x0000004E" ID="0x00010F03" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC4" dataView_ID="0x0000004E" ID="0x00010F04" type="TX" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_SM_FluenceV5" ID="0x10001103" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_FV5ECNS_SM" dataView_ID="0x00000097" ID="0x00010F09" type="TX" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_DM_FluenceV5" ID="0x10001104" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_FV5ECNS_DM" dataView_ID="0x00000097" ID="0x00010F0A" type="TX" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_DM_VPECNS" ID="0x10001105" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="TX_VOICE_MODULE_VPECNS" dataView_ID="0x00000099" ID="0x00010F16" type="TX" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_TX_SM_LVVEFQ" ID="0x1000BFF0" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX" dataView_ID="0xFFFF0004" ID="0x1000B500" type="TX" NewAdded="true" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX_INJECTION" dataView_ID="0xFFFF0005" ID="0x1000B502" type="TX" NewAdded="true" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_TX_DM_LVVEFQ" ID="0x1000BFF1" type="TX" NewAdded="true">
+          <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+          <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+          <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+          <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+          <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+          <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+          <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+          <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+          <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+          <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+          <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX" dataView_ID="0xFFFF0004" ID="0x1000B500" type="TX" NewAdded="true" />
+          <Block name="VOICE_PARAM_LVVEFQ_TX_INJECTION" dataView_ID="0xFFFF0005" ID="0x1000B502" type="TX" NewAdded="true" />
+          <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+        </TOPOLOGY>
+      </AREA>
+      <AREA name="VOICE_COPP_RX" type="RX">
+        <TOPOLOGY name="VOICE_RX_DIAMONDVOICE" ID="0x10001000" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" />
+          <Block name="RX_VOICE_ECRX" dataView_ID="0x0000000B" ID="0x00010EED" type="RX" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_DIAMONDVOICE_GAIN" dataView_ID="0xFFFF0001" ID="0x10001010" type="RX" NewAdded="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_DIAMONDVOICE" dataView_ID="0xFFFF0002" ID="0x10001001" type="RX" NewAdded="true" />
+        </TOPOLOGY>
+        <TOPOLOGY name="VPM_RX_LVVEFQ" ID="0x1000BFF2" type="RX" NewAdded="true">
+          <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+          <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+          <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" />
+          <Block name="RX_VOICE_ECRX" dataView_ID="0x0000000B" ID="0x00010EED" type="RX" />
+          <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" gain_dependant="Yes" />
+          <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+          <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+          <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" />
+          <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+          <Block name="RX_VOICE_DIAMONDVOICE_GAIN" dataView_ID="0xFFFF0001" ID="0x10001010" type="RX" NewAdded="true" gain_dependant="Yes" />
+          <Block name="RX_VOICE_DIAMONDVOICE" dataView_ID="0xFFFF0002" ID="0x10001001" type="RX" NewAdded="true" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX" dataView_ID="0xFFFF0006" ID="0x1000B501" type="RX" NewAdded="true" />
+          <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" dataView_ID="0xFFFF0007" ID="0x1000B503" type="RX" NewAdded="true" />
+        </TOPOLOGY>
+      </AREA>
+    </AREA_LIST>
+    <TOPOLOGY_LIST>
+      <TOPOLOGY name="VOICE_RX_DIAMONDVOICE" ID="0x10001000" type="RX" NewAdded="true">
+        <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+        <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+        <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" />
+        <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" />
+        <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" />
+        <Block name="RX_VOICE_ECRX" dataView_ID="0x0000000B" ID="0x00010EED" type="RX" />
+        <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" />
+        <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" />
+        <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+        <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" />
+        <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+        <Block name="RX_VOICE_DIAMONDVOICE_GAIN" dataView_ID="0xFFFF0001" ID="0x10001010" type="RX" NewAdded="true" />
+        <Block name="RX_VOICE_DIAMONDVOICE" dataView_ID="0xFFFF0002" ID="0x10001001" type="RX" NewAdded="true" />
+      </TOPOLOGY>
+      <TOPOLOGY name="AUDIO_RX_STEREO_COPP_SS_SB" ID="0x10001F03" type="RX" NewAdded="true">
+        <Block name="AUDIO_MBDRC" dataView_ID="0x00000012" ID="0x00010C06" type="BOTH" />
+        <Block name="AUDIO_PBE" dataView_ID="0x00000015" ID="0x00010C2A" type="RX" />
+        <Block name="AUDIO_RX_CODEC_GAIN" dataView_ID="0x00000024" ID="0x00010C37" type="RX" />
+        <Block name="RX_AUDIO_PP_SS_SB" dataView_ID="0xFFFF0003" ID="0x10001F01" type="RX" NewAdded="true" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VPM_RX_LVVEFQ" ID="0x1000BFF2" type="RX" NewAdded="true">
+        <Block name="RX_VOICE_WV" dataView_ID="0x00000003" ID="0x00010EE2" type="RX" />
+        <Block name="RX_VOICE_MBDRC" dataView_ID="0x00000007" ID="0x00010EE6" type="RX" />
+        <Block name="RX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE8" type="RX" />
+        <Block name="RX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EEA" type="RX" />
+        <Block name="RX_VOICE_FNS" dataView_ID="0x00000009" ID="0x00010EEB" type="RX" />
+        <Block name="RX_VOICE_ECRX" dataView_ID="0x0000000B" ID="0x00010EED" type="RX" />
+        <Block name="RX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF2" type="RX" />
+        <Block name="RX_VOICE_VOL" dataView_ID="0x00000054" ID="0x00010EF5" type="RX" volumeModule="true" />
+        <Block name="RX_VOICE_SPKR_GAIN" dataView_ID="0x00000018" ID="0x00010EF9" type="RX" />
+        <Block name="RX_VOICE_DEC_GAIN" dataView_ID="0x00000018" ID="0x00010EFA" type="RX" />
+        <Block name="RX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010EFF" type="RX" />
+        <Block name="RX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F12" type="RX" />
+        <Block name="RX_VOICE_DIAMONDVOICE_GAIN" dataView_ID="0xFFFF0001" ID="0x10001010" type="RX" NewAdded="true" />
+        <Block name="RX_VOICE_DIAMONDVOICE" dataView_ID="0xFFFF0002" ID="0x10001001" type="RX" NewAdded="true" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX" dataView_ID="0xFFFF0006" ID="0x1000B501" type="RX" NewAdded="true" />
+        <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" dataView_ID="0xFFFF0007" ID="0x1000B503" type="RX" NewAdded="true" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_SM_ECNS" ID="0x10001100" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_SMECNS" dataView_ID="0x0000007B" ID="0x00010EE0" type="TX" />
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_DM_Fluence" ID="0x10001101" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_DMECNS" dataView_ID="0x0000007A" ID="0x00010EE1" type="TX" />
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_QM_Fleunce" ID="0x10001102" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_FPECNS_QM" dataView_ID="0x00000039" ID="0x00010F08" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC3" dataView_ID="0x0000004E" ID="0x00010F03" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC4" dataView_ID="0x0000004E" ID="0x00010F04" type="TX" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_SM_FluenceV5" ID="0x10001103" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_FV5ECNS_SM" dataView_ID="0x00000097" ID="0x00010F09" type="TX" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_DM_FluenceV5" ID="0x10001104" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_FV5ECNS_DM" dataView_ID="0x00000097" ID="0x00010F0A" type="TX" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VOICE_TX_DIAMONDVOICE_WISEVOICE_DM_VPECNS" ID="0x10001105" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="TX_VOICE_MODULE_VPECNS" dataView_ID="0x00000099" ID="0x00010F16" type="TX" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VPM_TX_SM_LVVEFQ" ID="0x1000BFF0" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="VOICE_PARAM_LVVEFQ_TX" dataView_ID="0xFFFF0004" ID="0x1000B500" type="TX" NewAdded="true" />
+        <Block name="VOICE_PARAM_LVVEFQ_TX_INJECTION" dataView_ID="0xFFFF0005" ID="0x1000B502" type="TX" NewAdded="true" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+      <TOPOLOGY name="VPM_TX_DM_LVVEFQ" ID="0x1000BFF1" type="TX" NewAdded="true">
+        <Block name="TX_VOICE_IIR" dataView_ID="0x0000004E" ID="0x00010EE7" type="TX" />
+        <Block name="TX_VOICE_FIR" dataView_ID="0x00000021" ID="0x00010EE9" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC1" dataView_ID="0x0000004E" ID="0x00010EF0" type="TX" />
+        <Block name="TX_VOICE_IIR_MIC2" dataView_ID="0x0000004E" ID="0x00010EF1" type="TX" />
+        <Block name="TX_VOICE_DRC" dataView_ID="0x0000001E" ID="0x00010EF3" type="TX" />
+        <Block name="TX_VOICE_VOL" dataView_ID="0x0000000F" ID="0x00010EF4" type="TX" />
+        <Block name="TX_VOICE_MIC_GAIN" dataView_ID="0x00000018" ID="0x00010EF7" type="TX" />
+        <Block name="TX_VOICE_ENC_GAIN" dataView_ID="0x00000018" ID="0x00010EF8" type="TX" />
+        <Block name="TX_VOICE_ELLIPTICAL_FILTER" dataView_ID="0x00000019" ID="0x00010EFD" type="TX" />
+        <Block name="TX_VOICE_SLOPE_FILTER" dataView_ID="0x00000019" ID="0x00010EFE" type="TX" />
+        <Block name="TX_VOICE_AIG" dataView_ID="0x0000000E" ID="0x00010F00" type="TX" />
+        <Block name="TX_VOICE_HPF" dataView_ID="0x00000037" ID="0x00010F11" type="TX" />
+        <Block name="VOICE_PARAM_LVVEFQ_TX" dataView_ID="0xFFFF0004" ID="0x1000B500" type="TX" NewAdded="true" />
+        <Block name="VOICE_PARAM_LVVEFQ_TX_INJECTION" dataView_ID="0xFFFF0005" ID="0x1000B502" type="TX" NewAdded="true" />
+        <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+      </TOPOLOGY>
+    </TOPOLOGY_LIST>
+    <BLOCK_LIST>
+      <Block name="RX_VOICE_DIAMONDVOICE_GAIN" dataView_ID="0xFFFF0001" ID="0x10001010" type="RX" NewAdded="true" />
+      <Block name="RX_VOICE_DIAMONDVOICE" dataView_ID="0xFFFF0002" ID="0x10001001" type="RX" NewAdded="true" />
+      <Block name="RX_AUDIO_PP_SS_SB" dataView_ID="0xFFFF0003" ID="0x10001F01" type="RX" NewAdded="true" />
+      <Block name="VOICE_PARAM_LVVEFQ_TX" dataView_ID="0xFFFF0004" ID="0x1000B500" type="TX" NewAdded="true" />
+      <Block name="VOICE_PARAM_LVVEFQ_TX_INJECTION" dataView_ID="0xFFFF0005" ID="0x1000B502" type="TX" NewAdded="true" />
+      <Block name="VOICE_MODULE_LVVEFQ_RX" dataView_ID="0xFFFF0006" ID="0x1000B501" type="RX" NewAdded="true" />
+      <Block name="VOICE_MODULE_LVVEFQ_RX_INJECTION" dataView_ID="0xFFFF0007" ID="0x1000B503" type="RX" NewAdded="true" />
+      <Block name="TX_VOICE_DIAMONDVOICE_WISEVOICE" ID="0x10001031" type="TX" NewAdded="true" dataView_ID="0xFFFF0008" />
+    </BLOCK_LIST>
+    <AB_VIEW_LIST>
+      <AB_VIEW dataView_ID="0xFFFF0001" name="RX_VOICE_DIAMONDVOICE_GAIN" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x10001011" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0002" name="RX_VOICE_DIAMONDVOICE" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x10001002" />
+          <INTERFACE I_id="0x10001005" />
+          <INTERFACE I_id="0x10001006" />
+          <INTERFACE I_id="0x10001007" />
+          <INTERFACE I_id="0x10001021" />
+          <INTERFACE I_id="0x10001004" />
+          <INTERFACE I_id="0x10001003" />
+          <INTERFACE I_id="0x10001022" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0003" name="RX_AUDIO_PP_SS_SB" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x10001F02" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0004" name="VOICE_PARAM_LVVEFQ_TX" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x00010E00" />
+          <INTERFACE I_id="0x1000B000" />
+          <INTERFACE I_id="0x1000B001" />
+          <INTERFACE I_id="0x1000B002" />
+          <INTERFACE I_id="0x1000B003" />
+          <INTERFACE I_id="0x1000B004" />
+          <INTERFACE I_id="0x1000B005" />
+          <INTERFACE I_id="0x1000B006" />
+          <INTERFACE I_id="0x1000B007" />
+          <INTERFACE I_id="0x1000B009" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0005" name="VOICE_PARAM_LVVEFQ_TX_INJECTION" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x1000B301" />
+          <INTERFACE I_id="0x1000B302" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0006" name="VOICE_MODULE_LVVEFQ_RX" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x00010E00" />
+          <INTERFACE I_id="0x1000B100" />
+          <INTERFACE I_id="0x1000B101" />
+          <INTERFACE I_id="0x1000B102" />
+          <INTERFACE I_id="0x1000B104" />
+          <INTERFACE I_id="0x1000B105" />
+          <INTERFACE I_id="0x1000B106" />
+          <INTERFACE I_id="0x1000B107" />
+          <INTERFACE I_id="0x1000B108" />
+          <INTERFACE I_id="0x1000B109" />
+          <INTERFACE I_id="0x1000B10A" />
+          <INTERFACE I_id="0x1000B10B" />
+          <INTERFACE I_id="0x1000B10C" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0007" name="VOICE_MODULE_LVVEFQ_RX_INJECTION" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x1000B301" />
+          <INTERFACE I_id="0x1000B302" />
+        </DATA_VIEW>
+      </AB_VIEW>
+      <AB_VIEW dataView_ID="0xFFFF0008" name="TX_VOICE_DIAMONDVOICE_WISEVOICE" NewAdded="true">
+        <DATA_VIEW name="Data" display="true">
+          <INTERFACE I_id="0x10001032" />
+        </DATA_VIEW>
+      </AB_VIEW>
+    </AB_VIEW_LIST>
+    <INTERFACE_LIST>
+      <INTERFACE name="DIAMONDVOICE_MODE_PARAM" I_id="0x10001002" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="dvMode" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_ASF_PARAM" I_id="0x10001005" hexStr="02001800" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="asfFilterMode" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="asfLimiter" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_DYVE_PARAM" I_id="0x10001006" hexStr="00000000000000000000000000000000000000000000050006000000" NewAdded="true" maxSize="28">
+        <CONFIG_ELEMENT_ARRAY name="dyveStepGain" length="11" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="dyveMicSensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="dyvePreemphasis" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="dyveMicGain" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_CNG_PARAM" I_id="0x10001007" hexStr="01000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="cngLevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_GAIN_PARAM" I_id="0x10001011" hexStr="03000500" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="sfRxVolume" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="dyveRxStep" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_EQ_STATIC_PARAM" I_id="0x10001021" hexStr="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="128">
+        <CONFIG_ELEMENT_ARRAY name="eqLowFilter" length="32" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="eqHighFilter" length="32" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_VB_PARAM" I_id="0x10001004" hexStr="040009000900090009000600" NewAdded="true" maxSize="12">
+        <CONFIG_ELEMENT name="vbHpfCutoff" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="vbBoosterGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="vbBandGain" length="3" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="vbRMSLimiter" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_SF_PARAM" I_id="0x10001003" hexStr="020003000D005500460028000D005500460028000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="148">
+        <CONFIG_ELEMENT name="sfWNLevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfVolStepSelect" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfComThdHigh" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfComSlopeHigh" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfExpThdHigh" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfExpSlopehigh" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfComThdLow" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfComSlopeLow" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfExpThdlow" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sfExpSlopeLow" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="sfRxFilterHigh" length="32" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="sfRxFilterLow" length="32" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_EQ_DYNAMIC_PARAM" I_id="0x10001022" hexStr="00000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="28">
+        <CONFIG_ELEMENT name="voiceEqMode" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="dhaChannel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="dhaParam" length="12" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="PARAM_ID_PP_SS_SB_PARAM" I_id="0x10001F02" hexStr="FFFFC800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="520">
+        <CONFIG_ELEMENT name="sb_enable_flag" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sb_cutoff" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sb_gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="sb_clarity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="am_enable_flag" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="enable_filter01_flag" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="enable_filter02_flag" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="enable_filter03_flag" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="coef01" length="42" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="coef02" length="42" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="coef03" length="42" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="DIAMONDVOICE_WISEVOICE_PARAM" I_id="0x10001032" hexStr="000000000000C800000000000000000064000A0006000000" NewAdded="true" maxSize="24">
+        <CONFIG_ELEMENT name="txMode" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="wisevoiceParam" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="att_time" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="rel_time" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="wisevoice_thd" length="4" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="wisevoice_slp_high" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="wisevoice_slp_low" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="wisevoice_gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_CONTROL" I_id="0x1000B000" hexStr="0000000000000000000000000000000000000000" NewAdded="true" maxSize="20">
+        <CONFIG_ELEMENT name="MicrophoneRouting" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mute" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="BD_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="BulkDelay" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="BD_Gain" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_VOL" I_id="0x1000B001" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="VOL_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="VOL_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_HPF" I_id="0x1000B002" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="HPF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="MIC_HPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LPF" I_id="0x1000B003" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="LPF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="MIC_LPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LVHF" I_id="0x1000B004" hexStr="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="100">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="TuningMode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="InputGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="OutputGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_limit" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_LB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS_LB_two_alpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_LB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_HB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS_HB_two_alpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_HB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_preset_coefs" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS_offset" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_high_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_dt_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_low_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_echo_cutoff_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_alpha_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_portion_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_high_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_dt_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_low_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_NL_atten_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_alpha_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_tail_portion_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_high_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_dt_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_low_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_NL_atten_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_echo_relax_NE_threshold_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_echo_relax_NE_threshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_e_alpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_gamma_n" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_spdet_near" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_spdet_act" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_limit_ns" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_CNI_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_NFE_blocksize" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DENS_echo_clipping_level" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_far" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_mic" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_x_clip" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_threshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="PCD_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_minimum_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_erl_step" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_gamma_e_rescue" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LVWM" I_id="0x1000B006" hexStr="0000000000000000000000000000000000000000" NewAdded="true" maxSize="20">
+        <CONFIG_ELEMENT name="OperationMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="AVL_Target_level_lin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MinGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MaxGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Attack" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Release" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Limit_MaxOutputLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpDetect_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_EQ" I_id="0x1000B007" hexStr="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="136">
+        <CONFIG_ELEMENT name="EQ_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="EQ_Length" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="pEQ_Coefs" length="64" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_DRC" I_id="0x1000B009" hexStr="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="44">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NumKnees" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveInputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveOutputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AttackTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="ReleaseTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="LimiterOperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="LimitLevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_INJECTION_IN" I_id="0x1000B301" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="shift_bit" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_INJECTION_OUT" I_id="0x1000B302" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="enable" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="shift_bit" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_CONTROL" I_id="0x1000B100" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mute" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_VOL" I_id="0x1000B101" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="VOL_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="VOL_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVFENS" I_id="0x1000B102" hexStr="000000000000000000000000" NewAdded="true" maxSize="12">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="FENS_limit_NS" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="FENS_NoiseThreshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVHF" I_id="0x1000B104" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="NLPP_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NLPP_Limit" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLPP_HPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVVC" I_id="0x1000B105" hexStr="00000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="28">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="Gain_Lin_Max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Noise_Sensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Target_level_lin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MinGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MaxGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_NominalGain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Attack" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Release" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_ReleaseMax" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Limit_MaxOutputLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpDetect_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_EQ" I_id="0x1000B106" hexStr="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="136">
+        <CONFIG_ELEMENT name="EQ_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="EQ_Length" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="pEQ_Coefs" length="64" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_DRC" I_id="0x1000B107" hexStr="0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="44">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NumKnees" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveInputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveOutputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AttackTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="ReleaseTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="LimiterOperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="LimitLevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_HPF" I_id="0x1000B108" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="HPF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="HPF_CornerFreq" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_CNG" I_id="0x1000B109" hexStr="0000000000000000" NewAdded="true" maxSize="8">
+        <CONFIG_ELEMENT name="CNG_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="CNG_Volume" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_AGC" I_id="0x1000B10A" hexStr="0000000000000000000000000000000000000000" NewAdded="true" maxSize="20">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="AVL_Target_level_lin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MinGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_MaxGainLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Attack" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Release" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AVL_Limit_MaxOutputLin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpDetect_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_LVNG" I_id="0x1000B10B" hexStr="000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="36">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NumKnees" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveInputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT_ARRAY name="CompressorCurveOutputLevels" length="5" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="AttackTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="ReleaseTime" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_RX_NF" I_id="0x1000B10C" hexStr="000000000000000000000000" NewAdded="true" maxSize="12">
+        <CONFIG_ELEMENT name="NF_OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="NF_Attenuation" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NF_Frequency" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NF_QFactor" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_BUFFERING_ENABLE" I_id="0x1000B00A" hexStr="00000000" NewAdded="true" maxSize="4">
+        <CONFIG_ELEMENT name="OperatingMode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="reserved" type="uint16" min="0x0" max="0xFFFF" />
+      </INTERFACE>
+      <INTERFACE name="VOICE_PARAM_LVVEFQ_TX_LVNV" I_id="0x1000B005" hexStr="000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" NewAdded="true" maxSize="192">
+        <CONFIG_ELEMENT name="OperatingMode" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Config" type="int32" min="0x80000000" max="0x7FFFFFFF" />
+        <CONFIG_ELEMENT name="Mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="Tuning_mode" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="MicDistance" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Input_Gain_Mic0" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Input_Gain_Mic1" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="Output_Gain" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_LB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS0_LB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_LB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_HB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS0_HB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_HB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_preset_coefs" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS0_offset" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_LB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS1_LB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_LB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_HB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="NLMS1_HB_twoalpha" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_HB_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_preset_coefs" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="NLMS1_offset" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="MicGainComp" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_Taps" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_Erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_Threshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_MinimumErl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_ErlStep" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="PCD_GammaERescue" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SPDET_far" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="CAL_micPowFloorMin" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="IMCOH_broadside_level_scale" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SDET_PosChange_Sensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SDET_PosChange_ProtectPeriod" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="FSB_init_table0" length="8" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT_ARRAY name="FSB_init_table1" length="8" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="FSB_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="GSC_taps" type="uint16" min="0x0" max="0xFFFF" />
+        <CONFIG_ELEMENT name="GSC_erl" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaHi_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaLo_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaDt_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoCutoff_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NlAtten_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaHi_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaLo_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaDt_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoAlphaRev_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoTailPortion_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NlAtten_LB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaHi_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaLo_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoGammaDt_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoAlphaRev_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoTailPortion_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NlAtten_HB" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoRelax_NEThreshold_LF" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoRelax_NEThreshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_CNILevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_MusicalTone_Sensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_GainEta" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_SPDET_near" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_AcThreshold" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Gamma_nn_max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Constrained_nn_lo" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Constrained_nn_hi" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_Constrained_nn_highband" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_FE_SPPB_SNR_min" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_SNR_min" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_SNR_max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_highSNR" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_lowSNR" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_max" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_UGF_MG_rel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_GAINDET_Sensitivity" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_NGS_Smoothing" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="DNNS_EchoClippingLevel" type="int16" min="0x8000" max="0x7FFF" />
+        <CONFIG_ELEMENT name="SpeechRecovery" type="int16" min="0x8000" max="0x7FFF" />
+      </INTERFACE>
+    </INTERFACE_LIST>
+  </OpenDSP>
+</WorkSpace_Data>

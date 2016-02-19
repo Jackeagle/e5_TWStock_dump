@@ -1,0 +1,4 @@
+devanagari-ak-iso.res	94a8df5d022bd3144154e8e0bfcc8aa7	1641427
+en_US-ak-cur.lite.res	7ef0af8e449e9038736704f8f6499eff	448718
+marathi-lk-free.res	6651935104a6174973f4093bfeabed42	105222
+mr_IN.lang	a11e405fc5a26fe4bb2dc482e1e25464	3903

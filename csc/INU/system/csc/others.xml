@@ -1,0 +1,32 @@
+﻿<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>INDIA</Country>
+  <CountryISO>IN</CountryISO>
+  <SalesCode>INU</SalesCode>
+  <FeatureSet>
+	<CscFeature_VoiceCall_DisableGeoDescription>TRUE</CscFeature_VoiceCall_DisableGeoDescription>
+	<CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>
+	<CscFeature_RIL_EnableCallBarringConnectToUssd>TRUE</CscFeature_RIL_EnableCallBarringConnectToUssd>
+	<CscFeature_Setting_ReplaceLabel4DualSim>Smart dual SIM</CscFeature_Setting_ReplaceLabel4DualSim>
+	<CscFeature_RIL_EnableRoamingIcon4NationalRoaming>TRUE</CscFeature_RIL_EnableRoamingIcon4NationalRoaming>
+	<CscFeature_FMRadio_SetLocalTunning>-128,0,2,1</CscFeature_FMRadio_SetLocalTunning>
+	<CscFeature_FMRadio_ConfigHybridSearchTunnig>11,91100,-5,92700,-5,93500,-5,94300,-5,95000,-5,96000,5,102600,-5,105600,-5,98300,-5,104000,-5,104800,-5</CscFeature_FMRadio_ConfigHybridSearchTunnig>
+	<CscFeature_FMRadio_RecordingVolumeAs>11</CscFeature_FMRadio_RecordingVolumeAs>
+	<CscFeature_RIL_CurrentPlmnIndCheck>TRUE</CscFeature_RIL_CurrentPlmnIndCheck>
+	<CscFeature_Launcher_ConfigMagazineHome>disable</CscFeature_Launcher_ConfigMagazineHome>
+	<CscFeature_Web_EnableAutoSimHomeUrlInProfile>FALSE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+	<CscFeature_SyncML_SwUpdateActionDuringRoaming>roaminginfo</CscFeature_SyncML_SwUpdateActionDuringRoaming>
+	<CscFeature_Message_ConfigImeiTracker>+919560345888</CscFeature_Message_ConfigImeiTracker>
+	<CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_RIL_UssdErrorDoNotDisplay>TRUE</CscFeature_RIL_UssdErrorDoNotDisplay>
+    <CscFeature_RIL_DisplayStkUssdDialog>TRUE</CscFeature_RIL_DisplayStkUssdDialog>
+    <CscFeature_FMRadio_DisableMenuInternetRadio>TRUE</CscFeature_FMRadio_DisableMenuInternetRadio>
+    <CscFeature_RIL_EnablePlmnNameIndReporting>TRUE</CscFeature_RIL_EnablePlmnNameIndReporting>
+	<CscFeature_VoiceCall_TunnigCallWaitingToneAs>80</CscFeature_VoiceCall_TunnigCallWaitingToneAs>
+    <CscFeature_RIL_ConfigWbamr>2G</CscFeature_RIL_ConfigWbamr>	
+	<CscFeature_SyncML_EnableLimitationDeltaSizeViaMobileNet>1000</CscFeature_SyncML_EnableLimitationDeltaSizeViaMobileNet>
+	<CscFeature_RIL_DisableEons>TRUE</CscFeature_RIL_DisableEons>
+    <CscFeature_Camera_CameraFlicker>50hz</CscFeature_Camera_CameraFlicker>
+  </FeatureSet>
+</SamsungMobileFeauture>

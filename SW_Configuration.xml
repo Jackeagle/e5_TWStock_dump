@@ -1,0 +1,17 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-E500H</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>E500HODD</CSCName>
+	<CSCVersion>1BPA2</CSCVersion>
+	<NbCustomer>6</NbCustomer>
+	<CustomerData src="/Customer/BNG/customer.xml" />
+	<CustomerData src="/Customer/INS/customer.xml" />
+	<CustomerData src="/Customer/INU/customer.xml" />
+	<CustomerData src="/Customer/NPL/customer.xml" />
+	<CustomerData src="/Customer/SLK/customer.xml" />
+	<CustomerData src="/Customer/TML/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>
